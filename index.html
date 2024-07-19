@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel = "stylesheet" href = "style.css">
+    <title>Room Booking System</title>
+</head>
+<body>
+    <nav>
+        <div class="nav__bar">
+            <div class="nav__header">
+                <div class="logo nav__logo">
+                    <div>H</div>
+                    <span>HOTEL<br />OMANDS</span>
+                </div>
+                <div class = "nav__menu__btn" id = "menu-btn">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+            <ul class = "nav__links" id ="nav-links">
+                <li><a href = "#home">Home</a></li>
+                <li><a href = "#about">About</a></li>
+                <li><a href = "#booking">Booking</a></li>
+                <li><a href = "#room">Room</a></li>
+                <li><a href = "#feature">Feature</a></li>
+                <li><a href = "#menu">Menu</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class = "header" id="home">
+        <div class="section__container header__container">
+            <p class ="section__subheader">ABOUT US</p>
+            <h1>The Perfect<br />Base For You</h1>
+            <button class="btn">Take A Tour</button>
+        </div>
+    </header>
+
+    <section class = "booking">
+        <div class="section__container booking__container">
+            <form class = "form" action = "/">
+                <div class = "input__group">
+                    <label for = "arrival">Your Arrival Date:</label>
+                    <input type="date" placeholder = "Your Arrival Date">
+                </div>
+
+                <div class = "input__group">
+                    <label for = "departure">Your Departure Date:</label>
+                    <input type="date" placeholder = "Your Departure Date">
+                </div>
+
+                <div class = "input__group">
+                    <label for = "guests">Guests:</label>
+                    <input type="number" placeholder = "No. Of Guests">
+                </div>
+
+                <div class = "input__group">
+                    <label for = "rooms">Rooms Booked:</label>
+                    <input type="number" placeholder = "No. Of Room/Rooms">
+                </div>
+
+                <div class = "input__group">
+                    <label for = "typeofroom">Type of Room:</label>
+                    <input type="text" placeholder = "Room Type">
+                </div>
+
+                <button class="btn">Check Availability</button>
+            </form>
+        </div>
+    </section>
+
+    <section class = "about" id = "about">
+        <div class="section__container about__container">
+            <div class="about__grid">
+
+                <div class="about__image">
+                    <img src = "about-2.jpg" alt = "about">
+                </div>
+                <div class = "about__card">
+                    <span><i class="ri-user-line"></i></span>
+                    <h4>Strong Team</h4>
+                    <p>Unlocking Hospitality Excellence And Ensures Your Perfect Stay.</p>
+                </div>
+
+                <div class="about__image">
+                    <img src = "about-1.jpg" alt = "about">
+                </div>
+                <div class = "about__card">
+                    <span><i class="ri-calendar-check-line"></i></span>
+                    <h4>Luxury Room</h4>
+                    <p>Experience Unrivaled Luxury at Our Exquisite Luxury Rooms.</p>
+                </div>
+
+            </div>
+ 
+            <div class = "about__content">
+                <p class = "section__subheader">ABOUT US</p>
+                <h2 class = "section__header">Discover Our Underground</h2>
+                <p class="section__description">
+                    Welcome to a hidden realm of extraordinary accomodations where luxury, comfort, and adventure converge. Our underground hotels offer an unparalleled escape from the ordinary, inviting you to explore a subterranean world of wonders.
+                </p>
+                <button class="btn">Book Now</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section class = "room__container" id = "room">
+        <p class = "section__subheader">ROOMS</p>
+        <h2 class = "section__header">Hand Picked Rooms</h2>
+        <div class = "room__grid">
+            <div class = "room__card">
+                <img src = "room-1.jpg" alt = "room">
+                <div class="room__card__details">
+                    <div>
+                        <h4>Deluxe Suite</h4>
+                        <p>Well-appointed rooms designed for guests who desire a more.</p>
+                    </div>
+                    <h3>$399<span>/night</span></h3>
+                </div>
+            </div>
+
+            <div class = "room__card">
+                <img src = "room-2.jpg" alt = "room">
+                <div class="room__card__details">
+                    <div>
+                        <h4>Family Suite</h4>
+                        <p>Consists of multiple rooms and a common living area.</p>
+                    </div>
+                    <h3>$599<span>/night</span></h3>
+                </div>
+            </div>
+
+            <div class = "room__card">
+                <img src = "room-3.jpg" alt = "room">
+                <div class="room__card__details">
+                    <div>
+                        <h4>Family Ceremonies</h4>
+                        <p>Well-appointed rooms designed for guests who opt for family function.</p>
+                    </div>
+                    <h3>$299<span>/night</span></h3>
+                </div>
+            </div>
+
+            <div class = "room__card">
+                <img src = "room-4.jpg" alt = "room">
+                <div class="room__card__details">
+                    <div>
+                        <h4>Couple Suite</h4>
+                        <p>Room designed for love birds.</p>
+                    </div>
+                    <h3>$499<span>/night</span></h3>
+                </div>
+            </div>
+
+            <div class = "room__card">
+                <img src = "room-5.jpg" alt = "room">
+                <div class="room__card__details">
+                    <div>
+                        <h4>Book For Staycation</h4>
+                        <p>Well-appointed rooms designed for a relief from a crazy work days.</p>
+                    </div>
+                    <h3>$275<span>/night</span></h3>
+                </div>
+            </div>
+
+            <div class = "room__card">
+                <img src = "room-6.jpg" alt = "room">
+                <div class="room__card__details">
+                    <div>
+                        <h4>Book For Vacation</h4>
+                        <p>Enjoy with family and friends in your vacation.</p>
+                    </div>
+                    <h3>$200<span>/night</span></h3>
+                </div>
+            </div>
+
+            <div class = "room__card">
+                <img src = "room-7.jpg" alt = "room">
+                <div class="room__card__details">
+                    <div>
+                        <h4>Others</h4>
+                        <p>Opt for other options.</p>
+                    </div>
+                    <h3>$---<span>/night</span></h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__container feature__container" id ="feature">
+        <p class="section__subheader">FACILITIES</p>
+        <h2 class="section__header">Core Features</h2>
+        <div class="feature__grid">
+            <div class="feature__card">
+                <span><i class="ri-thumb-up-line"></i></span>
+                <h4>Have High Rating</h4>
+                <p>We take pride in curating a selection of hotels that consistently receive high ratings and positive reviews.</p>
+            </div>
+
+            <div class="feature__card">
+                <span><i class="ri-time-line"></i></span>
+                <h4>Quite Hours</h4>
+                <p>We understand that peace and uninterrupted rest are essential for a rejuventating experience.</p>
+            </div>
+
+            <div class="feature__card">
+                <span><i class="ri-map-pin-5-line"></i></span>
+                <h4>Best Location</h4>
+                <p>At Our room booking website, we take a pride in offering accomodations in the most prime and sought-after locations.</p>
+            </div>
+
+            <div class="feature__card">
+                <span><i class="ri-close-circle-line"></i></span>
+                <h4>Free Cancellation</h4>
+                <p>We understand that travel plans can change unexpectedly, which is why we offer the flexibility of free cancellation.</p>
+            </div>
+
+            <div class="feature__card">
+                <span><i class="ri-wallet-fill"></i></span>
+                <h4>Payment Options</h4>
+                <p>Our hotel booking website offers a range of convenlent payment options to suite your preferences.</p>
+            </div>
+
+            <div class="feature__card">
+                <span><i class="ri-coupon-line"></i></span>
+                <h4>Special Offers</h4>
+                <p>Whether you're planning a romantic getaway, or a business trip, our carefully curated special offers cater to all yous needs.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <div class="section__container menu__container">
+            <div class="menu__header">
+                <div>
+                    <p class="section__subheader">MENU</p>
+                    <h2 class="section__header">Our Food Menu</h2>
+                </div>
+                <div class="section__nav">
+                    <span><i class="ri-arrow-left-line"></i></span>
+                    <span><i class="ri-arrow-right-line"></i></span>
+                </div>
+            </div>
+
+            <ul class="menu__items">
+                <li>
+                    <img src="menu-7.jpg" alt="menu"/>
+                    <div class="menu__details">
+                        <h4>Roasted Chicken with fried veggies</h4>
+                    </div>
+                </li>
+
+                <li>
+                    <img src="menu-8.jpg" alt="menu"/>
+                    <div class="menu__details">
+                        <h4>Full Course indian Thali</h4>
+                    </div>
+                </li>
+
+                <li>
+                    <img src="menu-2.jpg" alt="menu"/>
+                    <div class="menu__details">
+                        <h4>Afghani Chicken with Rumali Roti</h4>
+                    </div>
+                </li>
+
+                <li>
+                    <img src="menu-3.jpg" alt="menu"/>
+                    <div class="menu__details">
+                        <h4>Chatpata Chat</h4>
+                    </div>
+                </li>
+
+                <li>
+                    <img src="menu-4.jpg" alt="menu"/>
+                    <div class="menu__details">
+                        <h4>Noodles</h4>
+                    </div>
+                </li>
+
+                <li>
+                    <img src="menu-5.jpg" alt="menu"/>
+                    <div class="menu__details">
+                        <h4>Momos</h4>
+                    </div>
+                </li>
+
+                <li>
+                    <img src="menu-6.jpg" alt="menu"/>
+                    <div class="menu__details">
+                        <h4>Thai Curry, Chilly panner, Chinese cusine</h4>
+                    </div>
+                </li>
+
+                <li>
+                    <img src="menu-1.jpg" alt="menu"/>
+                    <div class="menu__details">
+                        <h4>Chocolate pudding with melted hot chocolate</h4>
+                    </div>
+                </li>
+
+                <li>
+                    <img src="menu-9.jpg" alt="menu"/>
+                    <div class="menu__details">
+                        <h4>Pancakes with wipped Cream and Honey Drizzel</h4>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class ="footer">
+        <div class="section__container footer__container">
+            <div class="footer__col">
+                <div class="logo footer__logo">
+                    <div>H</div>
+                    <span>HOTEL<br />OMANDS</span>
+                </div>
+                <p class="section__description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo recusandae, nesciunt porro adipisci numquam vero tenetur dolorem modi necessitatibus ex voluptatem cupiditate sit blanditiis nam laudantium, eos, voluptatibus tempora aliquam.
+                </p>
+                <ul class ="footer__socials">
+                    <li>
+                        <a href="#"><i class="ri-youtube-fill"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="ri-instagram-fill"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="ri-twitter-fill"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class = "footer__col">
+                <h4>Services</h4>
+                <div class ="footer__links">
+                    <li><a href="#">Online Booking</a></li>
+                    <li><a href="#">Room Customization</a></li>
+                    <li><a href="#">Virtual Tours</a></li>
+                    <li><a href="#">Special Offers</a></li>
+                    <li><a href="#">Concierge Services</a></li>
+                    <li><a href="#">Customer Support</a></li>
+                </div>
+            </div>
+
+            <div class = "footer__col">
+                <h4>Contact Us</h4>
+                <div class ="footer__links">
+                 <li>
+                    <span><i class="ri-phone-fill"></i></span>
+                    <div>
+                        <h5>Phone Number</h5>
+                        <p>+91 9237498731</p>
+                    </div>
+                 </li> 
+                 <li>
+                    <span><i class="ri-record-mail-fill"></i></span>
+                    <div>
+                        <h5>Email</h5>
+                        <p>info.omanda@gmail.com</p>
+                    </div>
+                 </li> 
+                 <li>
+                    <span><i class="ri-map-pin-range-fill"></i></span>
+                    <div>
+                        <h5>Location</h5>
+                        <p>Gulmohar park New Delhi</p>
+                    </div>
+                 </li>   
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__bar">
+            Copyright © 2024 Project for IBM . All rights reserved.
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+</html>
